@@ -1,11 +1,7 @@
-import { PixelRatio, StyleSheet } from "react-native";
-import { Metrics, ApplicationStyles } from "../../Themes/";
-import { Fonts, Colors } from "../../Themes/";
+import { StyleSheet } from "react-native";
 
-const defaultMargin = PixelRatio.getPixelSizeForLayoutSize(5);
-
+//Styles for Hr component
 export default StyleSheet.create({
-  ...ApplicationStyles.screen,
   row: {
     flexDirection: "row"
   },
@@ -22,9 +18,7 @@ export default StyleSheet.create({
     alignSelf: "center"
   },
   textStyle: {
-    color: Colors.white,
-    marginTop: defaultMargin,
-    marginBottom: defaultMargin,
+    color: "white",
     paddingHorizontal: 5
   }
 });

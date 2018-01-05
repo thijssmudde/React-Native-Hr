@@ -1,16 +1,22 @@
-# React Native Hr
+# React Native Hr Plus
 
-Adds a Hr component which you can use primarily for login/register screens
+Hr component which you can use for awesome login/register screens
 
 ![PremiumReact](https://i.imgur.com/Wx054hF.png)
 
-##Installation
+## Installation
 ----
+NPM
 ```
-npm install react-native-hr
+npm install react-native-hr-plus --save
 ```
 
-##Usage
+Yarn
+```
+yarn add react-native-hr-plus
+```
+
+## Usage
 -----
 ```
 import Hr from "react-native-hr";
@@ -18,7 +24,7 @@ import Hr from "react-native-hr";
 <Hr text="OR" color="white" padding={20} width={1} textStyle={styles.textWithDivider}/>
 ```
 
-### Properties
+## Properties
 
 | Prop  | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
@@ -27,7 +33,7 @@ import Hr from "react-native-hr";
 | padding | 10 | `number` | Padding on both sides of the text |
 | textStyle | object | `style` | Style object for the text |
 
-##Contributing
+## Contributing
 ------------
 
-If you would like to improve this module feel free to do so
+If you would like to improve on this module feel free to do so

@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import { View, Text } from "react-native";
 //Styles
 import styles from "./HrStyles";
-
-// import { Colors } from "../Themes/";
-
+//Validation
 import PropTypes from "prop-types";
 
 export default class Hr extends Component {
@@ -37,6 +35,7 @@ export default class Hr extends Component {
   }
 }
 
+//Validate all props
 Hr.propTypes = {
   width: PropTypes.number,
   padding: PropTypes.number,
