@@ -1,0 +1,32 @@
+{
+  "name": "react-native-hr",
+  "version": "1.0.0",
+  "description": "Configurable HR component for your React Native app",
+  "main": "Hr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullhdpixel/React-Native-Hr.git"
+  },
+  "keywords": [
+    "ReactNative",
+    "React",
+    "Hr",
+    "PremiumReact"
+  ],
+  "author": "Fullhdpixel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullhdpixel/React-Native-Hr/issues"
+  },
+  "homepage": "https://premiumreact.com",
+  "peerDependencies": {
+    "react": ">= 15.x",
+    "react-native": ">= 0.47.x"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "^4.0.0"
+  }
+}
