@@ -26,9 +26,10 @@ import Hr from "react-native-hr-plus";
 
 | Prop  | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
-| text | empty | `string` | Text to show in the middle |
+| text | "" | `string` | Text to show in the middle |
 | color | "white" | `color` | Color for the border on both sides |
 | padding | 10 | `number` | Padding on both sides of the text |
+| width | 1 | `number` | Width of the hr |
 | textStyle | object | `style` | Style object for the text |
 
 ## Contributing
