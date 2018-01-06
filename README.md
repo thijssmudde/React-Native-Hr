@@ -19,7 +19,7 @@ yarn add react-native-hr-plus
 ## Usage
 -----
 ```
-import Hr from "react-native-hr";
+import Hr from "react-native-hr-plus";
 
 <Hr text="OR" color="white" padding={20} width={1} textStyle={styles.textWithDivider}/>
 ```
