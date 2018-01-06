@@ -5,7 +5,6 @@ Hr component which you can use for awesome login/register screens
 ![PremiumReact](https://i.imgur.com/Wx054hF.png)
 
 ## Installation
-----
 NPM
 ```
 npm install react-native-hr-plus --save
@@ -17,7 +16,6 @@ yarn add react-native-hr-plus
 ```
 
 ## Usage
------
 ```
 import Hr from "react-native-hr-plus";
 
@@ -34,6 +32,5 @@ import Hr from "react-native-hr-plus";
 | textStyle | object | `style` | Style object for the text |
 
 ## Contributing
-------------
 
 If you would like to improve on this module feel free to do so
