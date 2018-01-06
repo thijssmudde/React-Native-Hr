@@ -5,20 +5,10 @@ export default StyleSheet.create({
   row: {
     flexDirection: "row"
   },
-  leftSide: {
+  side: {
     backgroundColor: "white",
     height: 1,
     flex: 1,
     alignSelf: "center"
-  },
-  rightSide: {
-    backgroundColor: "white",
-    height: 1,
-    flex: 1,
-    alignSelf: "center"
-  },
-  textStyle: {
-    color: "white",
-    paddingHorizontal: 5
   }
 });

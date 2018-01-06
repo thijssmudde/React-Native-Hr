@@ -19,18 +19,27 @@ yarn add react-native-hr-plus
 ```
 import Hr from "react-native-hr-plus";
 
-<Hr text="OR" color="white" padding={20} width={1} textStyle={styles.textWithDivider}/>
+<Hr color="white" width={1}>
+    <Text style={styles.textWithDivider}>OR</Text>
+</Hr>
 ```
+
+Your text styles
+```
+textWithDivider: {
+    color: "white",
+    marginVertical: 10,
+    paddingHorizontal: 10
+}
+```
+
 
 ## Properties
 
 | Prop  | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
-| text | "" | `string` | Text to show in the middle |
 | color | "white" | `color` | Color for the border on both sides |
-| padding | 10 | `number` | Padding on both sides of the text |
 | width | 1 | `number` | Width of the hr |
-| textStyle | object | `style` | Style object for the text |
 
 ## Contributing
 
