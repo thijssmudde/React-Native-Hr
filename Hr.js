@@ -30,6 +30,6 @@ export default class Hr extends Component {
 //Validate all props
 Hr.propTypes = {
   width: PropTypes.number,
-  color: PropTypes.color,
-  children: PropTypes.children
+  color: PropTypes.string,
+  children: PropTypes.element
 };
