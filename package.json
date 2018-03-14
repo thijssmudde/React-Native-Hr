@@ -1,6 +1,6 @@
 {
   "name": "react-native-hr-plus",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Configurable HR component for your React Native app",
   "main": "Hr.js",
   "scripts": {

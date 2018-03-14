@@ -23,7 +23,7 @@ const Side = styled.View `
 export default class Hr extends React.Component {
   render() {
     return (
-      <Row>
+      <Row style={this.props.style}>
         <Side width={this.props.width} color={this.props.color}/>{this.props.children}
         <Side width={this.props.width} color={this.props.color}/>
       </Row>

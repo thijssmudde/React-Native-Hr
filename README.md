@@ -40,6 +40,7 @@ textWithDivider: {
 | :------------ |:---------------:| :---------------:| :-----|
 | color | "white" | `color` | Color for the border on both sides |
 | width | 1 | `number` | Width of the hr |
+| style | {} | `style` | Style of the hr view |
 
 ## Contributing
 
