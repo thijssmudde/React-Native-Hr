@@ -1,6 +1,6 @@
 {
   "name": "react-native-hr-plus",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Configurable HR component for your React Native app",
   "main": "Hr.js",
   "scripts": {
@@ -24,7 +24,8 @@
   "homepage": "https://premiumreact.com",
   "peerDependencies": {
     "react": ">= 15.x",
-    "react-native": ">= 0.47.x"
+    "react-native": ">= 0.47.x",
+    "styled-components": ">= 3.2.1"
   },
   "devDependencies": {
     "babel-preset-react-native": "^4.0.0"
