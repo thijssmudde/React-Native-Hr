@@ -34,5 +34,5 @@ export default class Hr extends React.Component {
 Hr.propTypes = {
   width: PropTypes.number,
   color: PropTypes.string,
-  children: PropTypes.element.isRequired
+  children: PropTypes.element
 }
