@@ -15,7 +15,7 @@ const Side = styled.View `
   : "white"};
   height: ${props => props.width
     ? props.width
-    : 1};
+    : 1}px;
   flex: 1;
   alignSelf: center;
 `
@@ -34,5 +34,5 @@ export default class Hr extends React.Component {
 Hr.propTypes = {
   width: PropTypes.number,
   color: PropTypes.string,
-  children: PropTypes.element.isRequired
+  // children: PropTypes.element.isRequired
 }
